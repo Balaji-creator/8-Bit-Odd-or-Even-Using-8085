@@ -12,15 +12,24 @@ To write an 8085 microprocessor program to check whether a given 8-bit number is
 3.	If the result is 0, the number is even; otherwise, it is odd.
 4.	Store the result in a specific memory location (odd or even flag).
 
-
 ## Program:
-<img width="1872" height="823" alt="image" src="https://github.com/user-attachments/assets/701b9c58-8b72-4476-8f58-79865a3223f2" />
-<img width="289" height="461" alt="image" src="https://github.com/user-attachments/assets/bbef0e6c-639e-4e7a-b5e9-3bf04ddd1621" />
-
+```
+LDA 4200H
+ANI 01H
+JZ L1
+MVI A,01H
+JMP L2
+L1:MVI A,02H
+L2:STA 4201H
+HLT
+```
 
 ## Output:
-<img width="291" height="481" alt="image" src="https://github.com/user-attachments/assets/f6079102-9696-49e1-aa9e-d7787c4dd79f" />
+ODD:
+<img width="1883" height="762" alt="image" src="https://github.com/user-attachments/assets/74e24976-0c07-422c-92d8-de137b20e12c" />
 
+EVEN:
+<img width="1880" height="610" alt="image" src="https://github.com/user-attachments/assets/64300514-90d5-4957-9800-dca38179a91d" />
 
 ## Result:
 The 8085 microprocessor successfully checks whether a given number is odd or even and stores the result in memory.
