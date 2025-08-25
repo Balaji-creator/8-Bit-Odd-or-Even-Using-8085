@@ -14,8 +14,12 @@ To write an 8085 microprocessor program to check whether a given 8-bit number is
 
 
 ## Program:
+<img width="1872" height="823" alt="image" src="https://github.com/user-attachments/assets/701b9c58-8b72-4476-8f58-79865a3223f2" />
+<img width="289" height="461" alt="image" src="https://github.com/user-attachments/assets/bbef0e6c-639e-4e7a-b5e9-3bf04ddd1621" />
+
 
 ## Output:
+<img width="291" height="481" alt="image" src="https://github.com/user-attachments/assets/f6079102-9696-49e1-aa9e-d7787c4dd79f" />
 
 
 ## Result:
